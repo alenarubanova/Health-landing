@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    background-color: $_white;
+    padding: 64px 0;
+}
+
+.header-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.header-logo {
+}
+.header-menu {
+    .header-list {
+        width: 310px;
+        display: flex;
+        justify-content: space-between;
+        .header-list__item {
+            .header-list__link {
+                font-family: 'Poppins';
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                color: rgba(18, 18, 18, 0.4);
+                transition: .4s;
+                &:hover{
+                    color: $_main;
+                }
+            }
+        }
+    }
+}
+
+
+
